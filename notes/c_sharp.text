@@ -1,0 +1,45 @@
+Python
+color = input("What is your favorite color? ")
+
+C#
+Console.Write("What is your favorite color? ");
+string color = Console.ReadLine();
+
+C#
+- it doesn't use colon after y and also have the bracket,
+but it is end with semicolon;
+if (x > y)
+{
+  Console.WriteLine("greater");
+}
+
+The rule to end statements with semicolons applies to 
+statements such as calling a function, 
+
+C#
+-String Interpolation
+In C#, if you would like to use a variable inside a string, 
+you start the string with a dollar sign $ in the same way that in Python,
+you start a format string with an f.
+
+string school = "BYU-Idaho";
+Console.WriteLine($"I am studying at {school}.");
+
+int number = 5;
+number = 8;
+number = 8;
+
+int only declare it once. it is easier to use new line for the next number.
+
+string color = "blue";
+
+it may seem cumbersome at first but there's value to it. C sharp doesn't care
+about new line they only wait for semi colon.
+
+Input(Ask question)
+Console.WriteLine ("What is your favorite color?");
+string color = Console.Readline();
+Console.WriteLine(" Your color is " + color); or I can do
+Console.Writeline($" YOUr color is {color}");
+
+Using System; command
